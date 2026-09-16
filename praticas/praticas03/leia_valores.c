@@ -18,5 +18,5 @@ scanf ("%f", &nota);
 printf("Depois lidos foram  %c, %i ,%.1f\n", letra, numero, nota);
 
 
-
+return 0;
 }
