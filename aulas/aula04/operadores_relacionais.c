@@ -21,7 +21,7 @@ int diferente_de = numero1 != numero2;
 //saida 
 printf("%i > %i = %i \n", numero1, numero2, maior_que); 
 printf("%i >= %i= %i\n",numero1, numero2, maior_igual);
-printf("")
+printf("");
 
 return 0;
 

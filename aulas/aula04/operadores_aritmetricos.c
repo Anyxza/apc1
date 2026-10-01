@@ -43,6 +43,6 @@ printf("o valor da expressao %i x (%i + %i) / (%i - %i) = %i\n", numero1,numero2
 
 printf ("++%i = %i\n", numero1, ++pre_incremento);
 printf("%i++ = %i (depois %i)\n", numero1, pre_incremento++, pre_incremento);
-printf("--%i = ")
+printf("--%i = ");
     return 0; 
 }
