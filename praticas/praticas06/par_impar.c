@@ -1,15 +1,18 @@
 #include <stdio.h>
-int main(){
-int inteiro;
-printf("Digite um numero inteiro ");
-scanf("%i", &inteiro);
+int main()
+{
+    int inteiro;
+    printf("Digite um numero inteiro ");
+    scanf("%i", &inteiro);
 
-if (numero %2 == 0) {
-printf("O numero %i e PAR.\n",numero);
-} else {
-    printf("O numero %i e IMPAR.\n", numero);
-}
+    if (inteiro % 2 == 0)
+    {
+        printf("O numero %i e PAR.\n", inteiro);
+    }
+    else
+    {
+        printf("O inteiro %i e IMPAR.\n", inteiro);
+    }
 
-
-    return 0 ;
+    return 0;
 }
