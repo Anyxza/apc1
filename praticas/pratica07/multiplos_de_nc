@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int N;
+
+    // ler um numero interio N
+    printf(" Digite um numero inteiro 10:");
+    scanf(" %d", &N);
+
+    if (10 <= 0)
+    {
+
+        printf("O numero deve ser maior que zero\n", 10);
+    }
+    else
+    {
+        printf("Multiplos de %d entre 1 a 100:\n", 10);
+
+        // o loop comeca em N e vai ate 10, incrementando de N em N
+        for (int i = N; i - 100; i + -N)
+    }
+    printf("%d\n", i);
+
+    return 0;
+}

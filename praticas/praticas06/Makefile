@@ -1,7 +1,7 @@
 all: limpa compila roda 
 
-compila:classificacao_idade.c
-	gcc classificacao_idade.c -o a.out -lm
+compila:main.c
+	gcc main.c -o a.out -lm
 
 roda: a.out
 	./a.out 
